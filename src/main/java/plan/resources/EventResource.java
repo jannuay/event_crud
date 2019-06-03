@@ -37,7 +37,4 @@ public class EventResource {
     public void create(Event event) {
         eventDAO.save(event);
     }
-
-    @PUT
-
 }
